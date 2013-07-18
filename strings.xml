@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">PixelRelay</string>
+    <string name="service_name">PixelRelay Service</string>
+    <string name="instant_upload_title">PixelRelay: Instant Upload</string>
+
+    <!-- Error reporting -->
+    <string name="email_using_custom_rom">Using custom ROM</string>
+    <string name="email_do_not_edit_message">The following is useful information for the developer. Please do not edit.</string>
+
+    <!-- Preferences: General -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_auto_upload">Enable auto-uploads</string>
+    <string name="pref_description_auto_upload">Auto-upload images</string>
+
+    <!-- Image Host -->
+    <string name="pref_header_host">Image Host</string>
+    <string name="pref_title_image_host">Image Host</string>
+    <string name="pref_default_image_host" />
+    <string name="http_url_error">Possible error with Image Host detected</string>
+
+    <string name="pref_title_private_key">Private Key</string>
+    <string name="pref_description_private_key">Private Key used by the server to authentic uploads</string>
+    <string name="pref_default_private_key" />
+
+    <string name="pref_title_default_album">Photo Album</string>
+    <string name="pref_default_album">private</string>
+
+
+    <!-- Data -->
+    <string name="pref_header_data">Data</string>
+    <string name="pref_description_radio_wifi_only">Only over Wi-Fi</string>
+    <string name="pref_description_radio_wifi_mobile">Wi-Fi or mobile network</string>
+    <string-array name="pref_list_connection_type">
+        <item>Wi-Fi-Only</item>
+        <item>Wi-Fi or mobile network</item>
+    </string-array>
+    <string-array name="pref_list_connection_type_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_minimum_signal_strength">Minimum Signal Strength</string>
+    <string name="pref_minimum_signal_strength_summary">Minimum signal strength required for auto-upload</string>
+    <string-array name="pref_list_signal_strength">
+        <item>95%</item>
+        <item>90%</item>
+        <item>80%</item>
+        <item>70%</item>
+        <item>60%</item>
+        <item>50%</item>
+        <item>40%</item>
+        <item>30%</item>
+        <item>20%</item>
+        <item>10%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="pref_list_signal_strength_values">
+        <item>95</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_while_roaming">Upload while roaming</string>
+
+    <!-- Power -->
+    <string name="pref_header_power">Power</string>
+    <string name="pref_while_charging">Only upload while charging</string>
+    <string name="pref_minimum_battery_level">Minimum Battery Level</string>
+    <string name="pref_minimum_battery_level_summary">Minimum battery level required for auto-upload</string>
+    <string-array name="pref_list_battery_level">
+        <item>95%</item>
+        <item>90%</item>
+        <item>80%</item>
+        <item>70%</item>
+        <item>60%</item>
+        <item>50%</item>
+        <item>40%</item>
+        <item>30%</item>
+        <item>20%</item>
+        <item>10%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="pref_list_battery_level_values">
+        <item>95</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Add All Images -->
+    <string name="pref_header_all_images">Upload all images</string>
+    <string name="pref_start_all_images">Upload all images</string>
+    <string name="pref_stop_all_images">Clear upload queue</string>
+    <string name="pref_description_all_images">Auto-upload all images</string>
+    <string name="all_images_queue_wait">Please wait will your images are added to the queue.</string>
+
+    <!-- Share intent -->
+    <plurals name="image_share_accepted">
+        <item quantity="one">One image has been shared.</item>
+        <item quantity="other">%d images have been shared.</item>
+    </plurals>
+    <plurals name="image_upload_waiting">
+        <item quantity="one">One image waiting to upload.</item>
+        <item quantity="other">%d images waiting to upload.</item>
+    </plurals>
+
+    <string name="empty_settings">Please verify the following settings: </string>
+    <string name="empty_image_host">Image Host</string>
+    <string name="empty_image_album">Photo Album</string>
+    <string name="empty_private_key">Private Key</string>
+
+    <!-- Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_upload_notifications">Notify on upload</string>
+    <plurals name="instant_upload_message">
+        <item quantity="one">One photo uploaded.</item>
+        <item quantity="other">%d photos uploaded.</item>
+    </plurals>
+    <string name="instant_upload_progress" formatted="false" >%d of %d images uploaded.</string>
+    <string name="body_upload_inprogress">Upload in progress</string>
+    <string name="ticker_upload_inprogress">Upload in progress</string>
+    <string name="body_upload_complete">Upload complete</string>
+    <string name="ticker_upload_complete">Upload complete</string>
+
+    <!-- Tasker Plugin -->
+    <string name="plugin_name">PixelRelay</string>
+    <string name="plugin_name_album">PixelRelay: Album Name</string>
+    <string name="plugin_name_enable">PixelRelay: Enabled</string>
+    <string name="tasker_album">Album Name</string>
+    <string name="tasker_enable">Enable Auto-upload</string>
+
+    <!-- DashClock Plugin -->
+    <string name="dashclock_title">PixelRelay</string>
+    <string name="dashclock_description">Displays current PixelRelay status</string>
+    <string name="dashclock_in_progress_long" formatted="false">%d of %d images uploaded.</string>
+    <string name="dashclock_in_progress_short" formatted="false">%d of %d</string>
+    <string name="dashclock_pending_long">%d images waiting to upload.</string>
+    <string name="dashclock_pending_short">%d</string>
+</resources>
