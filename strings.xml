@@ -109,6 +109,7 @@
     <string name="pref_description_all_images">Auto-upload all images</string>
     <string name="all_images_queue_wait">Please wait will your images are added to the queue.</string>
 
+    <!-- Share intent -->
     <plurals name="image_share_accepted">
         <item quantity="one">One image has been shared.</item>
         <item quantity="other">%d images have been shared.</item>
@@ -118,6 +119,7 @@
         <item quantity="other">%d images waiting to upload.</item>
     </plurals>
 
+    <!-- Share intent errors -->
     <string name="empty_settings">Please verify the following settings: </string>
     <string name="empty_image_host">Image Host</string>
     <string name="empty_image_album">Photo Album</string>
