@@ -109,7 +109,6 @@
     <string name="pref_description_all_images">Auto-upload all images</string>
     <string name="all_images_queue_wait">Please wait will your images are added to the queue.</string>
 
-    <!-- Share intent -->
     <plurals name="image_share_accepted">
         <item quantity="one">One image has been shared.</item>
         <item quantity="other">%d images have been shared.</item>
@@ -136,6 +135,11 @@
     <string name="ticker_upload_inprogress">Upload in progress</string>
     <string name="body_upload_complete">Upload complete</string>
     <string name="ticker_upload_complete">Upload complete</string>
+
+    <!-- Plugins -->
+    <string name="pref_header_plugins">Plugins</string>
+    <string name="pref_title_plugins">Enable Plugins</string>
+    <string name="pref_description_plugins">Allow plugins to change settings</string>
 
     <!-- Tasker Plugin -->
     <string name="plugin_name">PixelRelay</string>
