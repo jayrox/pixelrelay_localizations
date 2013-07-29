@@ -157,4 +157,7 @@
     <string name="dashclock_in_progress_short" formatted="false">%d of %d</string>
     <string name="dashclock_pending_long">%d images waiting to upload.</string>
     <string name="dashclock_pending_short">%d</string>
+    
+    <!-- Album Name Variable -->
+    <string name="default_date_format">yyyy-MM-dd"</string>
 </resources>
