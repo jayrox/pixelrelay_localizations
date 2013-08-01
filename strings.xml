@@ -25,7 +25,6 @@
     <string name="pref_title_default_album">Photo Album</string>
     <string name="pref_default_album">private</string>
 
-
     <!-- Data -->
     <string name="pref_header_data">Data</string>
     <string name="pref_description_radio_wifi_only">Only over Wi-Fi</string>
@@ -157,7 +156,16 @@
     <string name="dashclock_in_progress_short" formatted="false">%d of %d</string>
     <string name="dashclock_pending_long">%d images waiting to upload.</string>
     <string name="dashclock_pending_short">%d</string>
-    
+
     <!-- Album Name Variable -->
     <string name="default_date_format">yyyy-MM-dd"</string>
+
+    <!-- Menu -->
+    <string name="menu_about">About</string>
+
+    <string name="menu_homepage">http://pixelrelay.com</string>
+    <string name="menu_homepage_title">Homepage</string>
+
+    <string name="menu_github">https://github.com/jayrox/PixelRelay</string>
+    <string name="menu_github_title">GitHub</string>
 </resources>
