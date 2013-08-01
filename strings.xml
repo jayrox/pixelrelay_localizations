@@ -158,7 +158,7 @@
     <string name="dashclock_pending_short">%d</string>
 
     <!-- Album Name Variable -->
-    <string name="default_date_format">yyyy-MM-dd"</string>
+    <string name="default_date_format">yyyy-MM-dd</string>
 
     <!-- Menu -->
     <string name="menu_about">About</string>
