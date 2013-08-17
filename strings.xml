@@ -110,8 +110,8 @@
 
     <!-- Share intent -->
     <plurals name="image_share_accepted">
-        <item quantity="one">One image has been shared.</item>
-        <item quantity="other">%d images have been shared.</item>
+        <item quantity="one">One image is ready to upload.</item>
+        <item quantity="other">%d images are ready to upload.</item>
     </plurals>
     <plurals name="image_upload_waiting">
         <item quantity="one">One image waiting to upload.</item>
