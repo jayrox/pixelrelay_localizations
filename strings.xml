@@ -2,6 +2,7 @@
     <string name="app_name">PixelRelay</string>
     <string name="service_name">PixelRelay Service</string>
     <string name="instant_upload_title">PixelRelay: Instant Upload</string>
+    <string name="version">1.0</string>
 
     <!-- Error reporting -->
     <string name="email_using_custom_rom">Using custom ROM</string>
@@ -146,8 +147,10 @@
     <string name="plugin_name">PixelRelay</string>
     <string name="plugin_name_album">PixelRelay: Album Name</string>
     <string name="plugin_name_enable">PixelRelay: Enabled</string>
+    <string name="plugin_name_private_key">PixelRelay: Private Key</string>
     <string name="tasker_album">Album Name</string>
     <string name="tasker_enable">Enable Auto-upload</string>
+    <string name="tasker_private_key">Private Key</string>
 
     <!-- DashClock Plugin -->
     <string name="dashclock_title">PixelRelay</string>
@@ -163,9 +166,31 @@
     <!-- Menu -->
     <string name="menu_about">About</string>
 
-    <string name="menu_homepage">http://pixelrelay.com</string>
-    <string name="menu_homepage_title">Homepage</string>
+    <string name="menu_scanqr"/>
+    <string name="menu_scanqr_title">Scan QR Code</string>
 
-    <string name="menu_github">https://github.com/jayrox/PixelRelay</string>
-    <string name="menu_github_title">GitHub</string>
+    <!-- About Page -->
+    <string name="about">About</string>
+    <string name="license">License</string>
+    <string name="license_details">PixelRelay is copyright 2013. PixelRelay\'s web server code is released under Apache 2.0</string>
+    <string name="about_pixelrelay">PixelRelay is a powerful instant upload utility that gives you control.</string>
+    <string name="acknowledgements">Acknowledgements</string>
+
+
+    <string name="visit_pixelrelay_com">Visit PixelRelay.com</string>
+    <string name="help_translate">Help translate</string>
+    <string name="source_code_project">Web Source Code</string>
+
+    <string name="visit_google_plus">Google+ Community</string>
+
+    <!-- About -->
+    <string name="acknowledgements_list"><![CDATA[
+            <b>Lead Android Programmer:</b> <br/>
+            Jay Boehm (<a href=\'http://www.twitter.com/jayrox\'>@jayrox</a>) <br/>
+            <br/>
+            <b>Testers:</b> <br/>
+            Bryan Denny (<a href=\'http://www.twitter.com/mandlar\'>@mandlar</a>) <br/>
+            Katie Boehm (<a href=\'http://www.twitter.com/katmo6989\'>@katmo6989</a>) <br/>
+            ]]>
+    </string>
 </resources>
