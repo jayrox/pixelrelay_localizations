@@ -102,12 +102,18 @@
         <item>5</item>
     </string-array>
 
+
+    <!-- Scan QR Code -->
+    <string name="pref_header_scan_qr">QR Code</string>
+    <string name="pref_scan_qr">Scan QR Code</string>
+    <string name="pref_description_scan_qr">Scan a QR Code to quickly import host, album and private key</string>
+
     <!-- Add All Images -->
     <string name="pref_header_all_images">Upload all images</string>
     <string name="pref_start_all_images">Upload all images</string>
     <string name="pref_stop_all_images">Clear upload queue</string>
     <string name="pref_description_all_images">Auto-upload all images</string>
-    <string name="all_images_queue_wait">Please wait will your images are added to the queue.</string>
+    <string name="all_images_queue_wait">Please wait while your images are added to the queue.</string>
 
     <!-- Share intent -->
     <plurals name="image_share_accepted">
@@ -168,6 +174,11 @@
 
     <string name="menu_scanqr"/>
     <string name="menu_scanqr_title">Scan QR Code</string>
+    <string name="qr_confirm_title">Confirm QR Code</string>
+    <string name="qr_confirm_message" formatted="false">Please verify the following settings from the QR Code:\n\nHost: %1$s\nAlbum: %2$s\nPrivate Key: %3$s</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="unchanged">unchanged</string>
 
     <!-- About Page -->
     <string name="about">About</string>
@@ -177,11 +188,13 @@
     <string name="acknowledgements">Acknowledgements</string>
 
 
-    <string name="visit_pixelrelay_com">Visit PixelRelay.com</string>
-    <string name="help_translate">Help translate</string>
+    <string name="help_translate">Help Translate</string>
     <string name="source_code_project">Web Source Code</string>
 
+    <string name="visit_pixelrelay_com">PixelRelay.com</string>
     <string name="visit_google_plus">Google+ Community</string>
+    <string name="visit_reddit">Reddit: r/PixelRelay</string>
+
 
     <!-- About -->
     <string name="acknowledgements_list"><![CDATA[
