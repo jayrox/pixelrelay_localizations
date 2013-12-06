@@ -144,6 +144,13 @@
     <string name="body_upload_complete">Upload complete</string>
     <string name="ticker_upload_complete">Upload complete</string>
 
+    <!-- Upload failed notification responses -->
+    <string name="instant_upload_title_failed">Instant Upload Failed</string>
+    <string name="instant_upload_failed" formatted="false">Upload failed: %1$s</string>
+    <string name="instant_upload_failed_invalid_private_key">Invalid Private Key</string>
+    <string name="instant_upload_failed_server">Server Error</string>
+    <string name="instant_upload_failed_dupe">Duplicate Image</string>
+
     <!-- Plugins -->
     <string name="pref_header_plugins">Plugins</string>
     <string name="pref_title_plugins">Enable Plugins</string>
@@ -187,14 +194,12 @@
     <string name="about_pixelrelay">PixelRelay is a powerful instant upload utility that gives you control.</string>
     <string name="acknowledgements">Acknowledgements</string>
 
-
     <string name="help_translate">Help Translate</string>
     <string name="source_code_project">Web Source Code</string>
 
     <string name="visit_pixelrelay_com">PixelRelay.com</string>
     <string name="visit_google_plus">Google+ Community</string>
     <string name="visit_reddit">Reddit: r/PixelRelay</string>
-
 
     <!-- About -->
     <string name="acknowledgements_list"><![CDATA[
