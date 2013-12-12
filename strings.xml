@@ -150,6 +150,9 @@
     <string name="instant_upload_failed_invalid_private_key">Invalid Private Key</string>
     <string name="instant_upload_failed_server">Server Error</string>
     <string name="instant_upload_failed_dupe">Duplicate Image</string>
+    <string name="instant_upload_success">Success</string>
+    <string name="instant_upload_unknown">Unknown</string>
+    <string name="instant_upload_pending">Pending</string>
 
     <!-- Plugins -->
     <string name="pref_header_plugins">Plugins</string>
@@ -177,10 +180,11 @@
     <string name="default_date_format">yyyy-MM-dd</string>
 
     <!-- Menu -->
-    <string name="menu_about">About</string>
-
-    <string name="menu_scanqr"/>
+    <string name="menu_about_title">About</string>
     <string name="menu_scanqr_title">Scan QR Code</string>
+    <string name="menu_history_title">History</string>
+
+    <!-- QR Code -->
     <string name="qr_confirm_title">Confirm QR Code</string>
     <string name="qr_confirm_message" formatted="false">Please verify the following settings from the QR Code:\n\nHost: %1$s\nAlbum: %2$s\nPrivate Key: %3$s</string>
     <string name="yes">Yes</string>
@@ -211,4 +215,7 @@
             Katie Boehm (<a href=\'http://www.twitter.com/katmo6989\'>@katmo6989</a>) <br/>
             ]]>
     </string>
+
+    <!-- History -->
+    <string name="history_header">Upload History</string>
 </resources>
