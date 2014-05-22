@@ -2,6 +2,8 @@
     <string name="app_name">PixelRelay</string>
     <string name="service_name">PixelRelay Service</string>
     <string name="instant_upload_title">PixelRelay: Instant Upload</string>
+
+    <!-- version is auto-updated on git commits -->
     <string name="version">1.0</string>
 
     <!-- Error reporting -->
@@ -149,6 +151,7 @@
     <string name="instant_upload_failed" formatted="false">Upload failed: %1$s</string>
     <string name="instant_upload_failed_invalid_private_key">Invalid Private Key</string>
     <string name="instant_upload_failed_server">Server Error</string>
+    <string name="instant_upload_failed_server_moved">Server moved: %1$s</string>
     <string name="instant_upload_failed_dupe">Duplicate Image</string>
     <string name="instant_upload_success">Success</string>
     <string name="instant_upload_unknown">Unknown</string>
@@ -194,7 +197,7 @@
     <!-- About Page -->
     <string name="about">About</string>
     <string name="license">License</string>
-    <string name="license_details">PixelRelay is copyright 2013. PixelRelay\'s web server code is released under Apache 2.0</string>
+    <string name="license_details">PixelRelay is copyright 2013&#8211;2014. PixelRelay\'s web server code is released under Apache 2.0</string>
     <string name="about_pixelrelay">PixelRelay is a powerful instant upload utility that gives you control.</string>
     <string name="acknowledgements">Acknowledgements</string>
 
@@ -211,8 +214,8 @@
             Jay Boehm (<a href=\'http://www.twitter.com/jayrox\'>@jayrox</a>) <br/>
             <br/>
             <b>Testers:</b> <br/>
-            Bryan Denny (<a href=\'http://www.twitter.com/mandlar\'>@mandlar</a>) <br/>
             Katie Boehm (<a href=\'http://www.twitter.com/katmo6989\'>@katmo6989</a>) <br/>
+            Bryan Denny (<a href=\'http://www.twitter.com/mandlar\'>@mandlar</a>) <br/>
             ]]>
     </string>
 
